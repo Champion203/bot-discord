@@ -52,7 +52,7 @@ client.on("messageCreate", msg =>{
 	'อยากเจอ','หนีห่าง (เขียนไขและวานิช)','เก็บทรงไม่อยู่ Feat. DIAMOND MQT','ปล่อย','เรื่องจริง (Album Version)','คนละชั้น','รักได้ป่าว','ปล่อยมือฉัน','ปฏิเสธไม่ได้ว่ารักเธอ Feat.Kal','24พฤษภา [24MAY]'
 	,'Morning','ใครคนนั้น','กอดไม่ได้ (2016 Remastered)','Sorry','คำหวาน (ที่เธอไม่เอา)','ไม่เหมือนใคร']
 	if (msg.content == 'ฟังเพลงอะไรดี'){
-		msg.reply(musics[random_num()])
+		msg.reply('เพลงนี้เลยแนะนำ' + musics[random_num()])
 	}
 	if (msg.content == 'อย่างสีเหลือง'){
 		msg.reply('เยลโล่!!')
