@@ -25,6 +25,9 @@ client.on("messageCreate", msg =>{
 	if (msg.content == 'สวัสดี'){
 		msg.reply('สวัสดีจ้าา')
 	}
+	if (msg.content == 'มอนิ่ง' || msg.content =='GM ครับ' || msg.content =='GM ค้า' || msg.content =='มอนิ่งครับ'){
+		msg.reply('มอนิ่งจ้าา')
+	}
 	if (msg.content == 'ชื่ออะไร'){
 		msg.reply('ผมชื่ออับดุลครับ')
 	}
@@ -52,15 +55,15 @@ client.on("messageCreate", msg =>{
 	'อยากเจอ','หนีห่าง (เขียนไขและวานิช)','เก็บทรงไม่อยู่ Feat. DIAMOND MQT','ปล่อย','เรื่องจริง (Album Version)','คนละชั้น','รักได้ป่าว','ปล่อยมือฉัน','ปฏิเสธไม่ได้ว่ารักเธอ Feat.Kal','24พฤษภา [24MAY]'
 	,'Morning','ใครคนนั้น','กอดไม่ได้ (2016 Remastered)','Sorry','คำหวาน (ที่เธอไม่เอา)','ไม่เหมือนใคร']
 	if (msg.content == 'ฟังเพลงอะไรดี'){
-		msg.reply('เพลงนี้เลยแนะนำ' + musics[random_num()])
+		msg.reply('เพลงนี้เลยแนะนำ ' + musics[random_num()])
 	}
-	if (msg.content == 'อย่างสีเหลือง'){
+	if (msg.content == 'อย่างสีเหลือง' || msg.content == 'สีเหลือง'){
 		msg.reply('เยลโล่!!')
 	}
 	if (msg.content == 'มีด'){
 		msg.reply('อีโต้!!')
 	}
-	if (msg.content == 'ภาษาอังกฤษพูดได้ไหม'){
+	if (msg.content == 'ภาษาอังกฤษพูดได้ไหม' || msg.content == 'พูดภาษาอังกฤษได้ไหม'){
 		msg.reply('พูดได้!!')
 	}
 	if (msg.content == 'มะม่วง'){
